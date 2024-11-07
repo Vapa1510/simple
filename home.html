@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Potability</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-ribbon">
+            <a href="home.html">Home</a>
+            <a href="survey_main.html">Survey</a>
+            <a href="#result">Result</a>
+            <a href="#login" class="login">Login</a>
+        </div>
+    </header>
+    <main>
+        <section class="intro2">
+            <h1>Waste Water</h1>
+            <p>Wastewater is any water that has been used and is no longer suitable for its intended purpose. It typically contains a variety of contaminants, including organic matter, chemicals, and microorganisms, which can be harmful if not properly treated. Wastewater is generated from various sources, including residential, industrial, and commercial activities.</p>
+        </section>
+
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="i1.jpg" alt="Image 1">
+                <img src="i2.jpg" alt="Image 2">
+                <img src="i3.jpg" alt="Image 3">
+                <img src="i4.jpg" alt="Image 4">
+                <img src="i5.jpg" alt="Image 6">
+                <img src="i6.jpg" alt="Image 7">
+                <img src="i7.jpg" alt="Image 8">
+
+                <img src="i1.jpg" alt="Image 1(repeat)">
+                <img src="i2.jpg" alt="Image 2(repeat)">
+                <img src="i3.jpg" alt="Image 3(repeat)">
+                <img src="i4.jpg" alt="Image 4(repeat)">
+                <img src="i5.jpg" alt="Image 6(repeat)">
+                <img src="i6.jpg" alt="Image 7(repeat)">
+                <img src="i7.jpg" alt="Image 8(repeat)">
+
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div> 
+
+        <section class="intro">
+            <h1>Wastewater and Its Treatment</h1>
+            <p>Learn about the parameters affecting wastewater treatment and their significance.</p>
+        </section>
+
+        <section class="parameters">
+            <div class="parameter" id="pH">
+                <img src="pH.jpg" alt="pH Image" class="parameter-img">
+                <h2>pH</h2>
+                <p>pH is a measure of the relative amount of free hydrogen and hydroxyl ions in a substance.</p>
+            </div>
+            <div class="parameter" id="Turbidity">
+                <img src="images/turbidity.jpg" alt="Turbidity Image" class="parameter-img">
+                <h2>Turbidity</h2>
+                <p>The ability of water to conduct electricity, indicating the presence of dissolved ions and salts.</p>
+            </div>
+            <div class="parameter" id="Hardness">
+                <img src="images/hardness.jpg" alt="Hardness Image" class="parameter-img">
+                <h2>Hardness</h2>
+                <p>The hardness of water is mainly contributed by calcium and magnesium ions.</p>
+            </div>
+            <div class="parameter" id="Sulfates">
+                <img src="images/sulfates.jpg" alt="Sulfates Image" class="parameter-img">
+                <h2>Sulfates</h2>
+                <p>Sulfate is one of the major dissolved components of rain.</p>
+            </div>
+            <div class="parameter" id="Conductivity">
+                <img src="images/conductivity.jpg" alt="Conductivity Image" class="parameter-img">
+                <h2>Conductivity</h2>
+                <p>The ability of water to conduct electricity, indicating the presence of dissolved ions and salts.</p>
+            </div>
+            <div class="parameter" id="Organic_Carbon">
+                <img src="images/organic_carbon.jpg" alt="Organic Carbon Image" class="parameter-img">
+                <h2>Organic Carbon</h2>
+                <p>A measure of organic matter in water, indicating the amount of carbon-based compounds.</p>
+            </div>
+            <div class="parameter" id="HaloMethanes">
+                <img src="images/halomethanes.jpg" alt="HaloMethanes Image" class="parameter-img">
+                <h2>HaloMethanes</h2>
+                <p>Particles suspended in water scatter light, indicating the presence of impurities.</p>
+            </div>
+            <div class="parameter" id="Chloramines">
+                <img src="images/chloramines.jpg" alt="Chloramines Image" class="parameter-img">
+                <h2>Chloramines</h2>
+                <p>Chemical compounds formed by mixing chlorine with ammonia.</p>
+            </div>
+            <div class="parameter" id="Solids">
+                <img src="images/solids.jpg" alt="Solids Image" class="parameter-img">
+                <h2>Solids</h2>
+                <p>Particles suspended or dissolved in water, including organic and inorganic matter.</p>
+            </div>
+        </section>
+
+        <div class="more-info-container">
+            <a href="Survey.html" class="more-info">Click here to know more</a>
+        </div>
+    </main>
+
+    <script src="essential.js"></script>
+</body>
+</html>
